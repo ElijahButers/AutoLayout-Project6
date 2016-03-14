@@ -46,6 +46,11 @@ class ViewController: UIViewController {
         view.addSubview(label5)
 
     }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        
+        return true
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
